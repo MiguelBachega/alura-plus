@@ -167,6 +167,9 @@ body{
     }
     .container__titulo{
         font-size: 1.3em;
+        background-color: #00000096;
+        border-radius: 10px;
+        padding: 7px;
     }
 
     .container__descricao{
@@ -189,5 +192,31 @@ body{
 
     .descricao__texto{
         text-align: center;
+    }
+}
+@media (min-width:577px) and (max-width: 950px){
+    .mobile{
+        display: flex; 
+    }
+    
+    .principal{
+        background-size: auto 100%;
+        background-position: center right;
+    }
+
+    .secundario{
+        margin: 100px 0px;
+    }
+
+    .container{
+        height: auto;
+    }
+
+    .container__imagem {
+        width: 70%;
+    }
+
+    .container__titulo {
+        font-size: 21px;
     }
 }
