@@ -194,9 +194,10 @@ body{
         text-align: center;
     }
 }
-@media (min-width:577px) and (max-width: 950px){
+@media (min-width:577px) and (max-width: 1310px){
     .mobile{
         display: flex; 
+        justify-content: center;
     }
     
     .principal{
@@ -214,6 +215,7 @@ body{
 
     .container__imagem {
         width: 70%;
+        max-width: 400px;
     }
 
     .container__titulo {
