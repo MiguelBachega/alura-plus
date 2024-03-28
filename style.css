@@ -139,3 +139,55 @@ body{
     margin: 0 auto 15px;
 }
 
+@media (max-width: 576px){
+    .mobile{
+        display: flex; 
+    }
+
+    .container__imagem{
+        width: 80%;
+    }
+    .dispositivos__lista{
+        padding-left: 0px;
+    }
+    .rodape__lista{
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        
+    }
+
+    .container__caixa{
+        margin: 10px auto;
+        padding: 0px 20px;
+    }
+    .container__titulo{
+        font-size: 1.3em;
+    }
+
+    .container__descricao{
+        text-align: center;
+    }
+  
+    .principal{
+        background-size: auto 100%;
+        background-position: center right;    
+    }
+
+    .secundario{
+        margin: 100px 0px;
+    }
+
+    .descricao__titulo{
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .descricao__texto{
+        text-align: center;
+    }
+}
